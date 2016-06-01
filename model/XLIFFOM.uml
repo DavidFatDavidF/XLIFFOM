@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1UqmoCf8Eea7nJWIREoHFg" name="RootElement">
+  <packagedElement xmi:type="uml:DataType" xmi:id="_5ewBcCf8Eea7nJWIREoHFg" name="LIFF Document">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_MbZ4sCf9Eea7nJWIREoHFg" name="srcLang" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_jszioCf9Eea7nJWIREoHFg" name="datatype1"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_viqrcCf_EeaLaJ3Jz4-x4A" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_vio2QCf_EeaLaJ3Jz4-x4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zP6ZQCf_EeaLaJ3Jz4-x4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zP81gCf_EeaLaJ3Jz4-x4A" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_4r3ZsCgBEeaLaJ3Jz4-x4A" name="trgLang" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_9Pq8ECgBEeaLaJ3Jz4-x4A"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_9PsxQCgBEeaLaJ3Jz4-x4A" value="1"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_NfKCcCgCEeaLaJ3Jz4-x4A" name="version">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_RgmCICgDEeaLaJ3Jz4-x4A" name="Attribute1"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_viWiYCf_EeaLaJ3Jz4-x4A" name="file">
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_w8XFcCgDEeaLaJ3Jz4-x4A" name="id">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    </ownedAttribute>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Association" xmi:id="_vio2QCf_EeaLaJ3Jz4-x4A" memberEnd="_viqrcCf_EeaLaJ3Jz4-x4A _viqrcSf_EeaLaJ3Jz4-x4A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vipdUCf_EeaLaJ3Jz4-x4A" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viqEYCf_EeaLaJ3Jz4-x4A" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_viqrcSf_EeaLaJ3Jz4-x4A" name="liff document" type="_5ewBcCf8Eea7nJWIREoHFg" association="_vio2QCf_EeaLaJ3Jz4-x4A"/>
+  </packagedElement>
+  <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ha-ikCgAEeaLaJ3Jz4-x4A">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ha_wsCgAEeaLaJ3Jz4-x4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
+      <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+    </eAnnotations>
+    <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
+  </profileApplication>
+</uml:Model>
