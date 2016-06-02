@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1UqmoCf8Eea7nJWIREoHFg" name="RootElement">
   <packagedElement xmi:type="uml:DataType" xmi:id="_5ewBcCf8Eea7nJWIREoHFg" name="LIFF Document">
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_jszioCf9Eea7nJWIREoHFg" name="datatype1"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_viqrcCf_EeaLaJ3Jz4-x4A" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_vio2QCf_EeaLaJ3Jz4-x4A">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zP6ZQCf_EeaLaJ3Jz4-x4A" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zP81gCf_EeaLaJ3Jz4-x4A" value="*"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_tZqiUCglEeaKMP-ep1wpcg" name="srcLang" isDerived="true">
+      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_4r3ZsCgBEeaLaJ3Jz4-x4A" name="trgLang" isDerived="true">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
@@ -14,8 +12,13 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_NfKCcCgCEeaLaJ3Jz4-x4A" name="version">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_tZqiUCglEeaKMP-ep1wpcg" name="srcLang" isDerived="true">
-      <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_viqrcCf_EeaLaJ3Jz4-x4A" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_vio2QCf_EeaLaJ3Jz4-x4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zP6ZQCf_EeaLaJ3Jz4-x4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zP81gCf_EeaLaJ3Jz4-x4A" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_OEUVACiyEeau8s5A3CFbhg" name="*module or extension attributes" isLeaf="true">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZtkYCiyEeau8s5A3CFbhg" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZyc4CiyEeau8s5A3CFbhg" value="*"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_viWiYCf_EeaLaJ3Jz4-x4A" name="file">
@@ -28,7 +31,7 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oDT68CggEeayvKivPXh-Ng" value="*"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_vio2QCf_EeaLaJ3Jz4-x4A" memberEnd="_viqrcCf_EeaLaJ3Jz4-x4A _viqrcSf_EeaLaJ3Jz4-x4A">
+  <packagedElement xmi:type="uml:Association" xmi:id="_vio2QCf_EeaLaJ3Jz4-x4A" name="contains" memberEnd="_viqrcCf_EeaLaJ3Jz4-x4A _viqrcSf_EeaLaJ3Jz4-x4A">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vipdUCf_EeaLaJ3Jz4-x4A" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viqEYCf_EeaLaJ3Jz4-x4A" key="nature" value="UML_Nature"/>
     </eAnnotations>

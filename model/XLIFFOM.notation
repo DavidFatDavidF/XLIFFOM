@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1UtC4Cf8Eea7nJWIREoHFg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:style="http://www.eclipse.org/papyrus/infra/viewpoints/policy/style" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_1UtC4Cf8Eea7nJWIREoHFg" type="PapyrusUMLClassDiagram" name="Class Diagram" measurementUnit="Pixel">
   <children xmi:type="notation:Shape" xmi:id="_5e6ZgCf8Eea7nJWIREoHFg" type="2010">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2g_0oCixEeau8s5A3CFbhg" source="PapyrusHyperLink__web">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2g_0oSixEeau8s5A3CFbhg" key="tooltip_text" value="&lt;xliff>"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2g_0oiixEeau8s5A3CFbhg" key="link" value="http://docs.oasis-open.org/xliff/xliff-core/v2.0/xliff-core-v2.0.html#xliff"/>
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_2g_0oyixEeau8s5A3CFbhg" key="is_default_navigation" value="false"/>
+    </eAnnotations>
     <children xmi:type="notation:DecorationNode" xmi:id="_5e-D4Cf8Eea7nJWIREoHFg" type="5035"/>
     <children xmi:type="notation:DecorationNode" xmi:id="_5e-D4Sf8Eea7nJWIREoHFg" type="8502">
       <layoutConstraint xmi:type="notation:Location" xmi:id="_5e-D4if8Eea7nJWIREoHFg" y="5"/>
@@ -17,6 +22,10 @@
       <children xmi:type="notation:Shape" xmi:id="_taV3wCglEeaKMP-ep1wpcg" type="3018">
         <element xmi:type="uml:Property" href="XLIFFOM.uml#_tZqiUCglEeaKMP-ep1wpcg"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_taV3wSglEeaKMP-ep1wpcg"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_OFgAwCiyEeau8s5A3CFbhg" type="3018">
+        <element xmi:type="uml:Property" href="XLIFFOM.uml#_OEUVACiyEeau8s5A3CFbhg"/>
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_OFgAwSiyEeau8s5A3CFbhg"/>
       </children>
       <styles xmi:type="notation:TitleStyle" xmi:id="_5e-q8Sf8Eea7nJWIREoHFg"/>
       <styles xmi:type="notation:SortingStyle" xmi:id="_5e-q8if8Eea7nJWIREoHFg"/>
