@@ -36,12 +36,12 @@
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_X66HkDLiEeavfqxEi8MvRQ" value="1"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_QZKPQCgfEeayvKivPXh-Ng" name="datatype1" type="_QYfg4CgfEeayvKivPXh-Ng" association="_QZHzACgfEeayvKivPXh-Ng"/>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_brMuwiggEeayvKivPXh-Ng" name="group" type="_bqs_gCggEeayvKivPXh-Ng" association="_brMHsCggEeayvKivPXh-Ng">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_oDPpgCggEeayvKivPXh-Ng"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_oDT68CggEeayvKivPXh-Ng" value="*"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_5XmTQDMCEeavsuLbsMJx2g" name="group OR unit" type="_2SKW4DMDEeavsuLbsMJx2g" association="_5XdJUDMCEeavsuLbsMJx2g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_YMgK4DMDEeavsuLbsMJx2g" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_YMjOMDMDEeavsuLbsMJx2g" value="1"/>
     </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_vio2QCf_EeaLaJ3Jz4-x4A" name="contains" memberEnd="_viqrcCf_EeaLaJ3Jz4-x4A _viqrcSf_EeaLaJ3Jz4-x4A">
+  <packagedElement xmi:type="uml:Association" xmi:id="_vio2QCf_EeaLaJ3Jz4-x4A" name="LIFF contains files" memberEnd="_viqrcCf_EeaLaJ3Jz4-x4A _viqrcSf_EeaLaJ3Jz4-x4A">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_vipdUCf_EeaLaJ3Jz4-x4A" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_viqEYCf_EeaLaJ3Jz4-x4A" key="nature" value="UML_Nature"/>
     </eAnnotations>
@@ -59,18 +59,32 @@
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_6gvLADJREeaXaYsaHtTzgA"/>
     </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_SJZ4cDLhEeavfqxEi8MvRQ" name="group" type="_bqs_gCggEeayvKivPXh-Ng" association="_SJRVkDLhEeavfqxEi8MvRQ"/>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_oG_xUTMGEeavsuLbsMJx2g" name="unit" type="_5W36gDMCEeavsuLbsMJx2g" association="_oG-jMDMGEeavsuLbsMJx2g">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2a570DMGEeavsuLbsMJx2g"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2a-0UDMGEeavsuLbsMJx2g" value="*"/>
+    </ownedAttribute>
   </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_brMHsCggEeayvKivPXh-Ng" memberEnd="_brMuwiggEeayvKivPXh-Ng _brNV0CggEeayvKivPXh-Ng">
-    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_brMuwCggEeayvKivPXh-Ng" source="org.eclipse.papyrus">
-      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_brMuwSggEeayvKivPXh-Ng" key="nature" value="UML_Nature"/>
-    </eAnnotations>
-    <ownedEnd xmi:type="uml:Property" xmi:id="_brNV0CggEeayvKivPXh-Ng" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_brMHsCggEeayvKivPXh-Ng"/>
-  </packagedElement>
-  <packagedElement xmi:type="uml:Association" xmi:id="_SJRVkDLhEeavfqxEi8MvRQ" memberEnd="_SJZ4cDLhEeavfqxEi8MvRQ _SJafgDLhEeavfqxEi8MvRQ">
+  <packagedElement xmi:type="uml:Association" xmi:id="_SJRVkDLhEeavfqxEi8MvRQ" name="groups are recursive" memberEnd="_SJZ4cDLhEeavfqxEi8MvRQ _SJafgDLhEeavfqxEi8MvRQ">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_SJYqUDLhEeavfqxEi8MvRQ" source="org.eclipse.papyrus">
       <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_SJZRYDLhEeavfqxEi8MvRQ" key="nature" value="UML_Nature"/>
     </eAnnotations>
     <ownedEnd xmi:type="uml:Property" xmi:id="_SJafgDLhEeavfqxEi8MvRQ" name="group" type="_bqs_gCggEeayvKivPXh-Ng" association="_SJRVkDLhEeavfqxEi8MvRQ"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:DataType" xmi:id="_5W36gDMCEeavsuLbsMJx2g" name="unit"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_5XdJUDMCEeavsuLbsMJx2g" name="files have to contain groups or units" visibility="public" memberEnd="_5XmTQDMCEeavsuLbsMJx2g _5XmTQTMCEeavsuLbsMJx2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5XlFIDMCEeavsuLbsMJx2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5XlFITMCEeavsuLbsMJx2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_5XmTQTMCEeavsuLbsMJx2g" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_5XdJUDMCEeavsuLbsMJx2g"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Class" xmi:id="_2SKW4DMDEeavsuLbsMJx2g" name="group OR unit" isAbstract="true" isActive="true"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_zCBmYDMEEeavsuLbsMJx2g" client="_2SKW4DMDEeavsuLbsMJx2g" supplier="_5W36gDMCEeavsuLbsMJx2g"/>
+  <packagedElement xmi:type="uml:Realization" xmi:id="_3r4GYDMEEeavsuLbsMJx2g" client="_1UqmoCf8Eea7nJWIREoHFg" supplier="_bqs_gCggEeayvKivPXh-Ng"/>
+  <packagedElement xmi:type="uml:Association" xmi:id="_oG-jMDMGEeavsuLbsMJx2g" name="groups can contain units" memberEnd="_oG_xUTMGEeavsuLbsMJx2g _oHAYYDMGEeavsuLbsMJx2g">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oG_KQDMGEeavsuLbsMJx2g" source="org.eclipse.papyrus">
+      <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oG_xUDMGEeavsuLbsMJx2g" key="nature" value="UML_Nature"/>
+    </eAnnotations>
+    <ownedEnd xmi:type="uml:Property" xmi:id="_oHAYYDMGEeavsuLbsMJx2g" name="group" type="_bqs_gCggEeayvKivPXh-Ng" association="_oG-jMDMGEeavsuLbsMJx2g"/>
   </packagedElement>
   <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_ha-ikCgAEeaLaJ3Jz4-x4A">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ha_wsCgAEeaLaJ3Jz4-x4A" source="http://www.eclipse.org/uml2/2.0.0/UML">
