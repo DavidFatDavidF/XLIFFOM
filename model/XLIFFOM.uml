@@ -14,10 +14,6 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_NfKCcCgCEeaLaJ3Jz4-x4A" name="version" isStatic="true">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
     </ownedAttribute>
-    <ownedAttribute xmi:type="uml:Property" xmi:id="_viqrcCf_EeaLaJ3Jz4-x4A" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_vio2QCf_EeaLaJ3Jz4-x4A">
-      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zP6ZQCf_EeaLaJ3Jz4-x4A" value="1"/>
-      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zP81gCf_EeaLaJ3Jz4-x4A" value="*"/>
-    </ownedAttribute>
     <ownedAttribute xmi:type="uml:Property" xmi:id="_dJtVcDLnEeavfqxEi8MvRQ" name="xml:space">
       <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/EcorePrimitiveTypes.library.uml#EString"/>
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_itCbIDLnEeavfqxEi8MvRQ"/>
@@ -27,6 +23,10 @@
     <ownedAttribute xmi:type="uml:Property" xmi:id="_OEUVACiyEeau8s5A3CFbhg" name="*module or extension attributes" isLeaf="true">
       <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_aZtkYCiyEeau8s5A3CFbhg"/>
       <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_aZyc4CiyEeau8s5A3CFbhg" value="*"/>
+    </ownedAttribute>
+    <ownedAttribute xmi:type="uml:Property" xmi:id="_viqrcCf_EeaLaJ3Jz4-x4A" name="file" type="_viWiYCf_EeaLaJ3Jz4-x4A" association="_vio2QCf_EeaLaJ3Jz4-x4A">
+      <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_zP6ZQCf_EeaLaJ3Jz4-x4A" value="1"/>
+      <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_zP81gCf_EeaLaJ3Jz4-x4A" value="*"/>
     </ownedAttribute>
   </packagedElement>
   <packagedElement xmi:type="uml:DataType" xmi:id="_viWiYCf_EeaLaJ3Jz4-x4A" name="file">
