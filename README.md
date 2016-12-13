@@ -1,3 +1,8 @@
+#WORK ON THIS REPO IS DISCONTINUED
+IT HAS BEEN MOVED TO THE OFFICIAL OASIS REPO AT
+[https://github.com/oasis-tcs/xliff-omos-om](https://github.com/oasis-tcs/xliff-omos-om)
+
+
 # XLIFFOM
 XLIFF OM Repository
 ===================
